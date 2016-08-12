@@ -1,0 +1,10 @@
+<application>
+  <component name="HgGlobalSettings">
+    <option name="myHgExecutable" value="C:\Program Files (x86)\Mercurial\hg.exe" />
+    <option name="myRememberedUserNames">
+      <map>
+        <entry key="bitbucket.org/irina_petrovskaya/hg_acceptance" value="irina_petrovskaya" />
+      </map>
+    </option>
+  </component>
+</application>

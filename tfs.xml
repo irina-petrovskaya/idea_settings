@@ -1,0 +1,71 @@
+<application>
+  <component name="org.jetbrains.tfsIntegration.core.configuration.TFSConfigurationManager">
+    <option name="config">
+      <map>
+        <server uri="http://249-win2012r2-01:8080/tfs/">
+          <value>
+            <configuration>
+              <credentials>
+                <credentials type="NtlmNative">
+                  <password />
+                </credentials>
+              </credentials>
+            </configuration>
+          </value>
+        </server>
+        <server uri="http://249-win2012r2-01:8080/tfs/DefaultCollection/">
+          <value>
+            <configuration>
+              <credentials>
+                <credentials type="NtlmNative">
+                  <domain>LABS</domain>
+                  <password />
+                  <username>Irina.Petrovskaya</username>
+                </credentials>
+              </credentials>
+            </configuration>
+          </value>
+        </server>
+        <server uri="http://unit-300:8080/tfs/DefaultCollection/">
+          <value>
+            <configuration>
+              <credentials>
+                <credentials type="NtlmNative">
+                  <domain>LABS</domain>
+                  <password />
+                  <username>Irina.Petrovskaya</username>
+                </credentials>
+              </credentials>
+            </configuration>
+          </value>
+        </server>
+        <server uri="https://irinapetrovskaya.visualstudio.com/">
+          <value>
+            <configuration>
+              <credentials>
+                <credentials type="Alternate">
+                  <password>dfe3dfd9dfc5dfc5dfc7dfc3dfd9dfc2df9adf9a</password>
+                  <username>irina.petrovskaya@jetbrains.com</username>
+                </credentials>
+              </credentials>
+            </configuration>
+          </value>
+        </server>
+        <server uri="https://irinapetrovskaya.visualstudio.com/DefaultCollection/">
+          <value>
+            <configuration>
+              <credentials>
+                <credentials type="Alternate">
+                  <domain>Windows Live ID</domain>
+                  <password>dfe3dfd9dfc5dfc5dfc7dfc3dfd9dfc2df9adf9a</password>
+                  <username>Irina.Petrovskaya@jetbrains.com</username>
+                </credentials>
+              </credentials>
+            </configuration>
+          </value>
+        </server>
+      </map>
+    </option>
+    <option name="useIdeaHttpProxy" value="false" />
+  </component>
+</application>

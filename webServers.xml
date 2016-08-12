@@ -1,0 +1,17 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="879f007d-078d-4a58-8049-a2fccdc7aad1" name="ubuntu" url="">
+        <fileTransfer host="unit-365" port="222" rootFolder="/home/user" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="222" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+  <component name="webServersAuthStorage">
+    <data>AAAAsBrlP/EtM00JyjN0WjbbTSnQLG0UE99S4w4GNZabIH/fW2MOlp/p7Ub0iqNVlgelXBvmNcqLBuYiTgI0HvJLCy1YSLIOIqqW+hyCf5oP6x1xH8WHFgkSihvHOq+S52bYgWWQ2SFxHRrCL9E0hhupazE9yV/xBSyVqTiZgwnNH/g4BxX4kVRcWl+UvtpIIvnikikSF63OKes+QgHkrHsFTnCz+kSc/lQayuN+FOtknVTV7wNk1twy9WnmC+BX79M8+A==</data>
+  </component>
+</application>

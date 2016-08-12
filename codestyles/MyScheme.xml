@@ -1,0 +1,7 @@
+<code_scheme name="MyScheme">
+  <option name="STATIC_FIELD_NAME_PREFIX" value="static" />
+  <option name="VISIBILITY" value="EscalateVisible" />
+  <XML>
+    <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
+  </XML>
+</code_scheme>

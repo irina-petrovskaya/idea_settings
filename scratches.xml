@@ -1,0 +1,22 @@
+<application>
+  <component name="ScratchFileService">
+    <file url="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij/startup/sssss.js" value="TEXT" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/FooScratch.java" value="JAVA" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/SOE" value="JAVA" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch" value="JAVA" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java" value="JAVA" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1" value="JAVA" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2" value="JAVA" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_3" value="Groovy" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/step0" value="JAVA" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/step1" value="JAVA" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/step2" value="JAVA" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/step3" value="JAVA" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/step3_1" value="JAVA" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/step4" value="JAVA" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/step5" value="JAVA" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/step6" value="JAVA" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/step6_1" value="JAVA" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/step8" value="JAVA" />
+  </component>
+</application>

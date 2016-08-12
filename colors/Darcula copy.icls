@@ -1,0 +1,85 @@
+<scheme name="Darcula copy" version="142" parent_scheme="Darcula">
+  <option name="LINE_SPACING" value="1.0" />
+  <option name="EDITOR_FONT_SIZE" value="12" />
+  <option name="EDITOR_FONT_NAME" value="Monospaced" />
+  <colors>
+    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="7eb2bb" />
+    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="85bba4" />
+    <option name="FILESTATUS_addedOutside" value="7d9742" />
+    <option name="FILESTATUS_changelistConflict" value="d523a8" />
+    <option name="FILESTATUS_modifiedOutside" value="bb802f" />
+  </colors>
+  <attributes>
+    <option name="JSP_SCRIPTING_BACKGROUND">
+      <value>
+        <option name="BACKGROUND" value="232525" />
+      </value>
+    </option>
+    <option name="SPEL.BACKGROUND">
+      <value>
+        <option name="BACKGROUND" value="250221" />
+      </value>
+    </option>
+    <option name="SPEL.BEAN_PREFIX">
+      <value>
+        <option name="FOREGROUND" value="ffde1f" />
+      </value>
+    </option>
+    <option name="SPEL.BOUNDS">
+      <value>
+        <option name="FOREGROUND" value="cc1727" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="SPEL.BRACKETS">
+      <value>
+        <option name="FOREGROUND" value="410c14" />
+        <option name="BACKGROUND" value="ffff0c" />
+      </value>
+    </option>
+    <option name="SPEL.IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="3b7dc6" />
+      </value>
+    </option>
+    <option name="SPEL.KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="3ccc9f" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="SPEL.METHOD_CALL">
+      <value>
+        <option name="FOREGROUND" value="ff7a0c" />
+      </value>
+    </option>
+    <option name="SPEL.NUMBER">
+      <value>
+        <option name="FOREGROUND" value="2eb4bb" />
+      </value>
+    </option>
+    <option name="SPEL.PROPERTY_KEY">
+      <value>
+        <option name="FOREGROUND" value="c76ecc" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="SPEL.QUALIFIED_TYPE">
+      <value>
+        <option name="FOREGROUND" value="ffde1f" />
+      </value>
+    </option>
+    <option name="SPEL.STATIC_FIELD">
+      <value>
+        <option name="FOREGROUND" value="33aa2b" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="SPEL.STRING">
+      <value>
+        <option name="FOREGROUND" value="ff16b8" />
+        <option name="BACKGROUND" value="ccc8cb" />
+      </value>
+    </option>
+  </attributes>
+</scheme>

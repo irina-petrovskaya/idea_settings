@@ -1,0 +1,46 @@
+<scheme name="Darcula - spel 1" version="142" parent_scheme="Darcula">
+  <option name="LINE_SPACING" value="1.0" />
+  <option name="EDITOR_FONT_SIZE" value="12" />
+  <option name="EDITOR_FONT_NAME" value="Monospaced" />
+  <attributes>
+    <option name="SPEL.BOUNDS">
+      <value>
+        <option name="FOREGROUND" value="11cc11" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="SPEL.IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="c60d19" />
+      </value>
+    </option>
+    <option name="SPEL.KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="ccc264" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="SPEL.METHOD_CALL">
+      <value>
+        <option name="FOREGROUND" value="f9ff2b" />
+      </value>
+    </option>
+    <option name="SPEL.QUALIFIED_TYPE">
+      <value>
+        <option name="FOREGROUND" value="1ea5a4" />
+      </value>
+    </option>
+    <option name="SPEL.STATIC_FIELD">
+      <value>
+        <option name="FOREGROUND" value="a11faa" />
+        <option name="BACKGROUND" value="ccc8cb" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="SPEL.STRING">
+      <value>
+        <option name="FOREGROUND" value="874a1b" />
+      </value>
+    </option>
+  </attributes>
+</scheme>
