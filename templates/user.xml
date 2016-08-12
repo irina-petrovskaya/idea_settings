@@ -1,5 +1,5 @@
 <templateSet group="user">
-  <template name="sbean" value="@org.springframework.context.annotation.Bean&#10;    public $Class$ $beanName$(){&#10;        return new $Class$();&#10;    }" toReformat="true" toShortenFQNames="true">
+  <template name="sbean" value="@org.springframework.context.annotation.Bean&#10;    public $Class$ $beanName$(){&#10;        return new $Class$();&#10;    }" description="bean-annotated method" toReformat="true" toShortenFQNames="true">
     <variable name="Class" expression="classNameComplete()" defaultValue="" alwaysStopAt="true" />
     <variable name="beanName" expression="decapitalize(String)" defaultValue="$Class$" alwaysStopAt="true" />
     <context>
@@ -12,20 +12,13 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="ba" value="@org.springframework.context.annotation.Bean&#10;   $BEAN_CLASS$ $BEAN_METHOD$(){&#10;        return new $BEAN_CLASS$();&#10;    }" description="@Bean-annotated method" toReformat="true" toShortenFQNames="true">
-    <variable name="BEAN_CLASS" expression="classNameComplete()" defaultValue="" alwaysStopAt="true" />
-    <variable name="BEAN_METHOD" expression="methodName()" defaultValue="$BEAN_CLASS$" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_DECLARATION" value="true" />
-    </context>
-  </template>
   <template name="psm" value="public java.lang.String method$NAME$(java.lang.String arg1){&#10;        return &quot;$NAME$&quot;+&quot; &quot;+arg1;&#10;    }" description="string method" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="complete()" defaultValue="m1" alwaysStopAt="true" />
     <context>
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="reqm" value="@org.springframework.web.bind.annotation.RequestMapping(&quot;/$PATH$&quot;)&#10;    public java.lang.String $PATH$(org.springframework.ui.ModelMap model){&#10;        model.addAttribute(&quot;$PATH$_attr1&quot;,&quot;$PATH$_attr1&quot;);&#10;        return &quot;$PATH$&quot;;&#10;    }" description="requestMapping" toReformat="true" toShortenFQNames="true">
+  <template name="reqm" value="@org.springframework.web.bind.annotation.RequestMapping(&quot;/$PATH$&quot;)&#10;    public java.lang.String $PATH$Method(org.springframework.ui.ModelMap model){&#10;        model.addAttribute(&quot;$PATH$_attr1&quot;,&quot;$PATH$_attr1&quot;);&#10;        return &quot;$PATH$&quot;;&#10;    }" description="requestMapping" toReformat="true" toShortenFQNames="true">
     <variable name="PATH" expression="" defaultValue="path1" alwaysStopAt="true" />
     <context>
       <option name="JAVA_DECLARATION" value="true" />
