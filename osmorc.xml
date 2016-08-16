@@ -1,0 +1,22 @@
+<application>
+  <component name="Osmorc">
+    <option name="frameworkInstanceDefinitions">
+      <list>
+        <FrameworkInstanceDefinition>
+          <option name="baseFolder" value="C:\eclipse" />
+          <option name="frameworkIntegratorName" value="Equinox" />
+          <option name="name" value="Equinox (3.10.2.v20150203-1939)" />
+          <option name="version" value="3.10.2.v20150203-1939" />
+        </FrameworkInstanceDefinition>
+      </list>
+    </option>
+    <option name="libraryBundlificationRules">
+      <list>
+        <LibraryBundlificationRule>
+          <option name="lastModified" value="1471353076014" />
+          <option name="ruleRegex" value="antlr-2.7.5.jar" />
+        </LibraryBundlificationRule>
+      </list>
+    </option>
+  </component>
+</application>
