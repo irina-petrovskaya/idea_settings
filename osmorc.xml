@@ -13,7 +13,13 @@
     <option name="libraryBundlificationRules">
       <list>
         <LibraryBundlificationRule>
-          <option name="lastModified" value="1471353076014" />
+          <option name="additionalProperties" value="Import-Package: *;resolution:=optional&#10;Bundle-SymbolicName: mytest.b3&#10;Export-Package: com.myconverter" />
+          <option name="lastModified" value="1471353859207" />
+          <option name="ruleRegex" value="b3.jar" />
+        </LibraryBundlificationRule>
+        <LibraryBundlificationRule>
+          <option name="additionalProperties" value="Import-Package: *;resolution:=optional&#10;Bundle-SymbolicName: antlr" />
+          <option name="lastModified" value="1471354288459" />
           <option name="ruleRegex" value="antlr-2.7.5.jar" />
         </LibraryBundlificationRule>
       </list>
