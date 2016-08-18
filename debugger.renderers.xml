@@ -32,18 +32,24 @@
     </Renderer>
     <CustomRenderers VERSION="8">
       <Renderer ID="CompoundTypeRenderer">
+        <option name="NAME" value="boolean" />
+        <option name="ENABLED" value="true" />
+        <option name="QUALIFIED_NAME" value="boolean" />
+        <Renderer ID="EnumerationChildrenRenderer" role="children">
+          <option name="QUALIFIED_NAME" value="boolean" />
+          <option name="AppendDefault" value="true" />
+          <ChildrenExpression Name="">
+            <TextWithImports text="value&#13;&#13;JAVA" type="expression" />
+          </ChildrenExpression>
+        </Renderer>
+      </Renderer>
+      <Renderer ID="CompoundTypeRenderer">
         <option name="NAME" value="int" />
         <option name="ENABLED" value="true" />
         <option name="QUALIFIED_NAME" value="int" />
         <Renderer ID="EnumerationChildrenRenderer" role="children">
           <option name="QUALIFIED_NAME" value="int" />
           <option name="AppendDefault" value="true" />
-          <ChildrenExpression Name="">
-            <TextWithImports text="intValue()&#13;&#13;JAVA" type="expression" />
-          </ChildrenExpression>
-          <ChildrenExpression Name="">
-            <TextWithImports text="hashCode()&#13;&#13;JAVA" type="expression" />
-          </ChildrenExpression>
         </Renderer>
       </Renderer>
       <Renderer ID="CompoundTypeRenderer">

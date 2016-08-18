@@ -11,6 +11,5 @@
     <entry key="search.everywhere.actions" value="false" />
     <entry key="ide.windowSystem.autoShowProcessPopup" value="true" />
     <entry key="SBT.system.in.process" value="true" />
-    <entry key="vcs.unversioned.files.in.commit" value="true" />
   </component>
 </application>
