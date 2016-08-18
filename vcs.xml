@@ -6,8 +6,12 @@
           <option name="url" value="https://github.com/irina-petrovskaya/idea_settings.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/irina-petrovskaya/enum_bugs.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\Users\Irina.Petrovskaya\idea_settings_repo" />
+    <option name="cloneParentDir" value="C:\Users\Irina.Petrovskaya\IdeaProjects\githubTests" />
   </component>
 </application>
