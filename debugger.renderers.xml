@@ -32,6 +32,42 @@
     </Renderer>
     <CustomRenderers VERSION="8">
       <Renderer ID="CompoundTypeRenderer">
+        <option name="NAME" value="java.lang.String" />
+        <option name="ENABLED" value="true" />
+        <option name="QUALIFIED_NAME" value="java.lang.String" />
+        <Renderer ID="EnumerationChildrenRenderer" role="children">
+          <option name="QUALIFIED_NAME" value="java.lang.String" />
+          <option name="AppendDefault" value="true" />
+        </Renderer>
+      </Renderer>
+      <Renderer ID="CompoundTypeRenderer">
+        <option name="NAME" value="java.lang.Object[]" />
+        <option name="ENABLED" value="true" />
+        <option name="QUALIFIED_NAME" value="java.lang.Object[]" />
+        <Renderer ID="EnumerationChildrenRenderer" role="children">
+          <option name="QUALIFIED_NAME" value="java.lang.Object[]" />
+          <option name="AppendDefault" value="true" />
+        </Renderer>
+      </Renderer>
+      <Renderer ID="CompoundTypeRenderer">
+        <option name="NAME" value="java.util.LinkedHashSet" />
+        <option name="ENABLED" value="true" />
+        <option name="QUALIFIED_NAME" value="java.util.LinkedHashSet" />
+        <Renderer ID="EnumerationChildrenRenderer" role="children">
+          <option name="QUALIFIED_NAME" value="java.util.LinkedHashSet" />
+          <option name="AppendDefault" value="true" />
+        </Renderer>
+      </Renderer>
+      <Renderer ID="CompoundTypeRenderer">
+        <option name="NAME" value="java.util.ArrayList" />
+        <option name="ENABLED" value="true" />
+        <option name="QUALIFIED_NAME" value="java.util.ArrayList" />
+        <Renderer ID="EnumerationChildrenRenderer" role="children">
+          <option name="QUALIFIED_NAME" value="java.util.ArrayList" />
+          <option name="AppendDefault" value="true" />
+        </Renderer>
+      </Renderer>
+      <Renderer ID="CompoundTypeRenderer">
         <option name="NAME" value="boolean" />
         <option name="ENABLED" value="true" />
         <option name="QUALIFIED_NAME" value="boolean" />
