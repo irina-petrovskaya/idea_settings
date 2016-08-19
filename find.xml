@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'arraysAndCollectionsAutowiring'" />
-    <option name="defaultScopeName" value="Project 'arraysAndCollectionsAutowiring'" />
-    <option name="SEARCH_SCOPE" value="Project 'arraysAndCollectionsAutowiring'" />
+    <option name="customScope" value="Project 'spring_constructors_check'" />
+    <option name="defaultScopeName" value="Project 'spring_constructors_check'" />
+    <option name="SEARCH_SCOPE" value="Project 'spring_constructors_check'" />
   </component>
 </application>
