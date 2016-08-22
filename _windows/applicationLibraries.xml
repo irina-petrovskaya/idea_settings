@@ -647,6 +647,24 @@
       <JAVADOC />
       <SOURCES />
     </library>
+    <library name="Hibernate Validator-5.0.1" type="BeanValidation">
+      <properties version="5.0.1" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/IdeaProjects/lib/beanValidaton/hibernate-validator-cdi-5.0.1.Final.jar!/" />
+        <root url="jar://$USER_HOME$/IdeaProjects/lib/beanValidaton/classmate-0.8.0.jar!/" />
+        <root url="jar://$USER_HOME$/IdeaProjects/lib/beanValidaton/javax.el-api-2.2.4.jar!/" />
+        <root url="jar://$USER_HOME$/IdeaProjects/lib/beanValidaton/jboss-logging-3.1.1.GA.jar!/" />
+        <root url="jar://$USER_HOME$/IdeaProjects/lib/beanValidaton/hibernate-validator-annotation-processor-5.0.1.Final.jar!/" />
+        <root url="jar://$USER_HOME$/IdeaProjects/lib/beanValidaton/validation-api-1.1.0.Final.jar!/" />
+        <root url="jar://$USER_HOME$/IdeaProjects/lib/beanValidaton/log4j-1.2.17.jar!/" />
+        <root url="jar://$USER_HOME$/IdeaProjects/lib/beanValidaton/hibernate-jpa-2.1-api-1.0.0.Draft-16.jar!/" />
+        <root url="jar://$USER_HOME$/IdeaProjects/lib/beanValidaton/jsoup-1.7.1.jar!/" />
+        <root url="jar://$USER_HOME$/IdeaProjects/lib/beanValidaton/hibernate-validator-5.0.1.Final.jar!/" />
+        <root url="jar://$USER_HOME$/IdeaProjects/lib/beanValidaton/joda-time-2.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="javax.inject">
       <CLASSES>
         <root url="jar://$USER_HOME$/IdeaProjects/ArquillianTests/javax_inject_lib/javax.inject-1.jar!/" />
@@ -759,6 +777,16 @@
         <root url="jar://$USER_HOME$/IdeaProjects/Spring/spring_libraries/spring4.1.3/spring-oxm-4.1.2.RELEASE.jar!/" />
         <root url="jar://$USER_HOME$/IdeaProjects/Spring/spring_libraries/spring4.1.3/spring-test-4.1.2.RELEASE.jar!/" />
         <root url="jar://$USER_HOME$/IdeaProjects/Spring/spring_libraries/spring4.1.3/spring-tx-4.1.2.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Spring MVC 4.3.1" type="spring-mvc">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/IdeaProjects/Spring/spring_libraries/SpringMVC_4.3.1/spring-web-4.3.1.RELEASE.jar!/" />
+        <root url="jar://$USER_HOME$/IdeaProjects/Spring/spring_libraries/SpringMVC_4.3.1/spring-webmvc-4.3.1.RELEASE.jar!/" />
+        <root url="jar://$USER_HOME$/IdeaProjects/Spring/spring_libraries/SpringMVC_4.3.1/spring-webmvc-portlet-4.3.1.RELEASE.jar!/" />
+        <root url="jar://$USER_HOME$/IdeaProjects/Spring/spring_libraries/SpringMVC_4.3.1/spring-websocket-4.3.1.RELEASE.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
