@@ -2,7 +2,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="879f007d-078d-4a58-8049-a2fccdc7aad1" name="ubuntu" url="">
-        <fileTransfer host="unit-365" port="222" rootFolder="/home/user" accessType="SFTP">
+        <fileTransfer host="unit-365" port="222" privateKey="C:\SSH\.ssh\u069" rootFolder="/home/user" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
