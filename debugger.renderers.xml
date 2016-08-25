@@ -32,12 +32,30 @@
     </Renderer>
     <CustomRenderers VERSION="8">
       <Renderer ID="CompoundTypeRenderer">
+        <option name="NAME" value="com.mytests.spring.beanValidationTest.User" />
+        <option name="ENABLED" value="true" />
+        <option name="QUALIFIED_NAME" value="com.mytests.spring.beanValidationTest.User" />
+        <Renderer ID="EnumerationChildrenRenderer" role="children">
+          <option name="QUALIFIED_NAME" value="com.mytests.spring.beanValidationTest.User" />
+          <option name="AppendDefault" value="true" />
+          <ChildrenExpression Name="">
+            <TextWithImports text="getAge()&gt;0&#13;&#13;JAVA" type="expression" />
+          </ChildrenExpression>
+          <ChildrenExpression Name="">
+            <TextWithImports text="toString()&#13;&#13;JAVA" type="expression" />
+          </ChildrenExpression>
+        </Renderer>
+      </Renderer>
+      <Renderer ID="CompoundTypeRenderer">
         <option name="NAME" value="java.lang.String" />
         <option name="ENABLED" value="true" />
         <option name="QUALIFIED_NAME" value="java.lang.String" />
         <Renderer ID="EnumerationChildrenRenderer" role="children">
           <option name="QUALIFIED_NAME" value="java.lang.String" />
           <option name="AppendDefault" value="true" />
+          <ChildrenExpression Name="">
+            <TextWithImports text="length()&#13;&#13;JAVA" type="expression" />
+          </ChildrenExpression>
         </Renderer>
       </Renderer>
       <Renderer ID="CompoundTypeRenderer">
